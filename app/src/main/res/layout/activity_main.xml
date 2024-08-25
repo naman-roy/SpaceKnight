@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/mainview">
+
+    <Button
+        android:id="@+id/buttonPlay"
+        android:layout_width="209dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#85EF0A"
+        android:text="PLAY"
+        android:textColorLink="#F6F6F5"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:layout_marginTop="450dp"
+        android:layout_marginBottom="5dp"/>
+
+    <Button
+        android:id="@+id/buttonScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#FFC107"
+        android:text="High Score"
+        android:textColorLink="#F6F6F5"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonExit"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E70505"
+        android:text="Exit"
+        android:textColorLink="#F6F6F5"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"/>
+</LinearLayout>
